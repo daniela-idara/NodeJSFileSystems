@@ -39,7 +39,7 @@
         --- rl.question();
         --- fs.copyFile();
 
-## 3) Update a File - copyFile.js
+## 4) Update a File - copyFile.js
 
     * Using input from terminal readline prompts, this file will accomplish two things:
 
@@ -51,7 +51,7 @@
         --- rl.question();
         --- fs.appendFile();        
 
-## 4) Delete a File - unlinkFile.js
+## 5) Delete a File - unlinkFile.js
 
     * Using input from terminal readline prompts, this file will accomplish two things:
 
