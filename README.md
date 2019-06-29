@@ -28,7 +28,7 @@
 
 ## 3) Copy a File - copyFile.js
 
-    * Using input from terminal readline prompts, this file will accomplish two things:
+    * Using input from terminal readline prompts, this file will accomplish three things:
 
         --- Stores input for original file name
         --- Stores input for new file name
@@ -38,6 +38,18 @@
 
         --- rl.question();
         --- fs.copyFile();
+
+## 3) Update a File - copyFile.js
+
+    * Using input from terminal readline prompts, this file will accomplish two things:
+
+        --- Stores input for file name
+        --- Appends updated content to the end of the file
+
+    * Node.js modules used:
+
+        --- rl.question();
+        --- fs.appendFile();        
 
 ## 4) Delete a File - unlinkFile.js
 
