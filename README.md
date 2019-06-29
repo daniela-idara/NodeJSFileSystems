@@ -39,7 +39,7 @@
         --- rl.question();
         --- fs.copyFile();
 
-## 4) Update a File - copyFile.js
+## 4) Update a File - updateFile.js
 
     * Using input from terminal readline prompts, this file will accomplish two things:
 
