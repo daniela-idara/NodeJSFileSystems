@@ -26,7 +26,20 @@
         --- rl.question();
         --- fs.readFile();
 
-## 3) Delete a File - unlinkFile.js
+## 3) Copy a File - copyFile.js
+
+    * Using input from terminal readline prompts, this file will accomplish two things:
+
+        --- Stores input for original file name
+        --- Stores input for new file name
+        --- Creates a new file, duplicating the contents of the original file
+
+    * Node.js modules used:
+
+        --- rl.question();
+        --- fs.copyFile();
+
+## 4) Delete a File - unlinkFile.js
 
     * Using input from terminal readline prompts, this file will accomplish two things:
 

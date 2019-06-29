@@ -12,8 +12,11 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+//placeholder for the user input
+
 let newAnswer = "";
 
+// this function prompts for user input
 function askQuestion(){
 
     rl.question(`What file do you want to read? `, (answer) => {
