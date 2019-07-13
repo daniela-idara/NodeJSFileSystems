@@ -37,22 +37,23 @@ rl.question(`What do you want to put in the file? `, (content) => {
   return createFile();
   });
 
+  // this function will create a new file 
+  // it will take two arguments
+  // the first argument will name the file based on the newAnswer provided from user input
+  // the second argument will be the full contents of the file based on user input for newContent
+
+  function createFile(){
+    fs.writeFile(newAnswer, newContent, (err) => {
+      if (err) throw err;
+      console.log("File successfully saved!");
+      rl.close();
+      });
+      }
+
 });
 }
 
 // the function is called to prompt for the answers to the questions
 makeNewFile();
 
-// this function will create a new file 
-// it will take two arguments
-// the first argument will name the file based on the newAnswer provided from user input
-// the second argument will be the full contents of the file based on user input for newContent
-
-function createFile(){
-fs.writeFile(newAnswer, newContent, (err) => {
-  if (err) throw err;
-  console.log("File successfully saved!");
-  rl.close();
-  });
-  }
 

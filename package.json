@@ -1,0 +1,25 @@
+{
+  "name": "nodefswork",
+  "version": "1.0.0",
+  "description": "add, read, delete file from user input in node",
+  "main": "copyFile.js",
+  "scripts": {
+    "test": "fswork"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniela-idara/NodeJSFileSystems.git"
+  },
+  "keywords": [
+    "fs",
+    "fs.read",
+    "readline",
+    "node"
+  ],
+  "author": "daniela archibong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniela-idara/NodeJSFileSystems/issues"
+  },
+  "homepage": "https://github.com/daniela-idara/NodeJSFileSystems#readme"
+}
