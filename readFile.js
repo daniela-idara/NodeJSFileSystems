@@ -17,7 +17,7 @@ const rl = readline.createInterface({
 let newAnswer = "";
 
 // this function prompts for user input
-function askQuestion(){
+function readFile(){
 
     rl.question(`What file do you want to read? `, (answer) => {
     console.log(`Reading file: ${answer}`);
@@ -34,10 +34,6 @@ function askQuestion(){
 
 }
 
-askQuestion();
-
-
-
-
+readFile();
 
 

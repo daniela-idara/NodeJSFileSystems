@@ -1,7 +1,7 @@
 ## Study on using node.JS filesystem 
     https://nodejs.org/api/fs.html
 
-## 1) Create a File - userInputToFile.js
+## 1) Create a File - userInputToFile.js - makeNewFile();
 
     * Using input from terminal readline prompts, this file will accomplish three things:
 
@@ -14,7 +14,7 @@
         --- rl.question();
         --- fs.writeFile();
 
-## 2) Read a File - readFile.js
+## 2) Read a File - readFile.js - readFile();
 
     * Using input from terminal readline prompts, this file will accomplish two things:
 
@@ -26,7 +26,7 @@
         --- rl.question();
         --- fs.readFile();
 
-## 3) Copy a File - copyFile.js
+## 3) Copy a File - copyFile.js - copyFile();
 
     * Using input from terminal readline prompts, this file will accomplish three things:
 
@@ -39,7 +39,7 @@
         --- rl.question();
         --- fs.copyFile();
 
-## 4) Update a File - updateFile.js
+## 4) Update a File - updateFile.js - updateFile();
 
     * Using input from terminal readline prompts, this file will accomplish two things:
 
@@ -51,7 +51,7 @@
         --- rl.question();
         --- fs.appendFile();        
 
-## 5) Delete a File - unlinkFile.js
+## 5) Delete a File - unlinkFile.js - deleteFile();
 
     * Using input from terminal readline prompts, this file will accomplish two things:
 

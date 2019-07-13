@@ -26,16 +26,14 @@ let newContent = "";
 // the answer to the second question is saved in the placeholder variable for newContent
 
 function makeNewFile(){
-rl.question(`What is the name of the file you want to create? `, (answer) => {
-console.log(`Created file named: ${answer}`);
-newAnswer = answer;
-
-
-rl.question(`What do you want to put in the file? `, (content) => {
-  console.log(`Writing to file: ${content}`);
-  newContent = content;
-  return createFile();
-  });
+    rl.question(`What is the name of the file you want to create? `, (answer) => {
+    console.log(`Created file named: ${answer}`);
+    newAnswer = answer;
+      rl.question(`What do you want to put in the file? `, (content) => {
+        console.log(`Writing to file: ${content}`);
+        newContent = content;
+        return createFile();
+        });
 
   // this function will create a new file 
   // it will take two arguments

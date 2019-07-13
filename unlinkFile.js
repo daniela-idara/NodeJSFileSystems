@@ -8,7 +8,7 @@ const rl = readline.createInterface({
     output: process.stdout
   });
 
-function askQuestion(){
+function deleteFile(){
 
     rl.question(`What file do you want to delete? `, (file) => {
     console.log(`Deleting file: ${file}`);
@@ -26,4 +26,4 @@ rl.close();
 });
 }
 
-askQuestion();
+deleteFile();
